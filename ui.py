@@ -55,7 +55,7 @@ with center:
         }
 
         response = requests.post(
-            "http://127.0.0.1:8000/predict",
+            "https://adani-port-stock-prediction.onrender.com/predict",
             json=payload
         )
 
@@ -220,3 +220,4 @@ with right:
 # =========================
 st.markdown("---")
 st.caption("FastAPI Backend · ML Model · Streamlit Dashboard")
+
